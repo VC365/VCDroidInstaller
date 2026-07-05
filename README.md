@@ -1,5 +1,5 @@
 # VCDroidInstaller
-VCDroidInstaller is a tool for installing Android-x86 and generating boot entries on GRUB-based systems.
+VCDroidInstaller is a tool for installing Android-x86 and generating boot entries on GRUB-based systems. 
 It automates ISO analysis, system extraction(Full Installation), and GRUB entry generation to simplify dual-boot setup for Android-x86 distributions.
 
 ## Features
@@ -7,7 +7,7 @@ It automates ISO analysis, system extraction(Full Installation), and GRUB entry 
 - GRUB configuration generator.
 - Optional data partition/image creation.
 - Basic Information.
-  example:
+Example output:
   ```
   ###### Information ######
   Kernel version: 4.9.194-android-x86-gdcaac9a77ef9

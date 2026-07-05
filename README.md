@@ -6,6 +6,7 @@ It automates ISO analysis, system extraction(Full Installation), and GRUB entry 
 - ISO inspection and validation.
 - GRUB configuration generator.
 - Optional data partition/image creation.
+- Optional full system image extraction (Need root access)
 - Basic Information.
 Example output:
   ```

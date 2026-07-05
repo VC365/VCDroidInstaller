@@ -1,0 +1,13 @@
+name: VCDroidInstaller
+version: 0.1.0
+
+authors:
+  - VC365 <xdood.sav@outlook.com>
+
+targets:
+  vcdroid-installer:
+    main: src/main.cr
+
+crystal: '>= 1.20.2'
+
+license: GPLv3

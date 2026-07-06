@@ -17,12 +17,28 @@ Example output:
   ABI Supported: x86,armeabi-v7a,armeabi
   OpenGL ES: 3.0
   ```
-## ⚙️ Requirements
-- Linux (any GRUB-based system).
-- root access (for Full installation)
-- bsdtar
-- libcdio
-- mkfs.ext4 (optional for data image creation)
+## Installation
+
+### Requirements
+
+* Linux (any GRUB-based system).
+* root access (for Full installation)
+* bsdtar
+* libcdio
+* mkfs.ext4 (optional for data image creation)
+
+### Using the installer script
+
+```bash
+chmod a+x installer.sh
+./installer.sh install
+```
+
+To uninstall:
+
+```bash
+./installer.sh uninstall
+```
 
 ## Usage
 ```
@@ -31,12 +47,6 @@ Usage: vcdroid-installer [ISO Path | -i,--iso | -f,--folder | -h,--help | -v,--v
     -f DIR, --folder=DIR             Set installation folder.
     -h, --help                       Show this help.
     -v, --version                    Print the VCDroidInstaller version.
-```
-## Build from source
-```bash
-git clone https://github.com/yourname/vcdroid
-cd vcdroid
-shards build
 ```
 
 ## Contributing
